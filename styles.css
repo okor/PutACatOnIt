@@ -1,0 +1,33 @@
+
+/*
+Cat creds
+http://www.flickr.com/photos/rubbertoe/7110280421/sizes/m/
+by http://www.flickr.com/photos/rubbertoe/
+
+Office creds
+http://www.flickr.com/photos/skomae/17305568/
+by http://www.flickr.com/photos/skomae/
+*/
+
+body {
+  background: url(http://farm1.staticflickr.com/14/17305568_91a8b6702e_b.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#gun, .awkward_cat {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  background: green;
+  width: 250px;
+  height: 250px;
+  background: url('images/awkward_cat.png') no-repeat;
+}
+
+#gun {
+  z-index: 2;
+}
