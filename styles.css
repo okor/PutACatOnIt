@@ -9,6 +9,23 @@ http://www.flickr.com/photos/skomae/17305568/
 by http://www.flickr.com/photos/skomae/
 */
 
+/*
+
+font-family: 'Eater', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Akronim', cursive;
+font-family: 'Covered By Your Grace', cursive;
+
+*/
+
+html {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	font-family: 'Poiret One', cursive;
+/*	font-family: 'Covered By Your Grace', cursive;*/
+}
+
 body {
   background: url(http://farm1.staticflickr.com/14/17305568_91a8b6702e_b.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,6 +33,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
+  margin: 0;
 }
 
 #gun, .awkward_cat {
@@ -25,9 +43,70 @@ body {
   background: green;
   width: 250px;
   height: 250px;
-  background: url('images/awkward_cat.png') no-repeat;
+  background: url('images/cats/awkward_cat.png') no-repeat;
 }
 
 #gun {
   z-index: 2;
 }
+
+
+#cats {
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	width: 10%;
+	height: 100%;
+	background-color: #ccc;
+	margin: 0;
+	-webkit-box-shadow: 10px 0px 5px -4px #000;
+}
+
+h2 {
+	margin: 1em;
+	text-align: center;
+}
+
+#cats ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#cats li {
+	display: block;
+	clear: both;
+	width: 100%;
+	padding: 10%;
+}
+
+#cats li img {
+	max-height: 80%;
+	max-width: 80%;
+}
+
+
+
+#scenes {
+	position: absolute;
+	right: 0;
+	z-index: 2;
+	width: 10%;
+	height: 100%;
+	background-color: #ccc;
+	margin: 0;
+	-webkit-box-shadow: -10px 0px 5px -4px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
